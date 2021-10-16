@@ -1,0 +1,52 @@
+.display{
+    width:400px;
+    height:400px;
+    margin: auto;
+   margin-top:40px;
+   margin-bottom: 40px;
+    background-color: blueviolet;
+}
+
+.input{
+    display:flex;
+    flex-direction:row;
+    padding:30px 30px;
+}
+.input input{
+    width:150px;
+    outline: none;
+    border:none;
+    height:30px;
+    border-radius:5px;
+    margin:0 5px;
+}
+.button{
+    display:flex;
+    flex-direction: row;
+    padding:0 30px;
+}
+.button button{
+    width:80px;
+    outline:none;
+    border:none;
+    height:30px;
+    border-radius: 5px;
+    margin:0 5px;
+    font-weight: bold;
+   background-color: cyan;
+   cursor:pointer;
+
+}
+.clear{
+    padding-top:30px;
+}
+.clear button{
+    width:80px;
+    cursor:pointer;
+    outline:none;
+    border:none;
+    height:30px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: darkmagenta;
+}
